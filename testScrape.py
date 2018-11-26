@@ -3,7 +3,6 @@ import requests
 import pandas as pd
 import re
 
-
 webpage = 'https://www.researchgate.net/profile/Armin_Doerry/'
 
 pageContent = requests.get(webpage, timeout=5)
